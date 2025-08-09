@@ -1,0 +1,20 @@
+{
+  "name": "newshirts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "build:manifest": "node build-manifest.mjs",
+    "build:images": "node optimize-images.mjs",
+    "build": "npm run build:images && npm run build:manifest",
+    "test": "echo \"No tests\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sharp": "0.34.3"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "generatedAtMs": 1754704033981,
+  "assets": [
+    {
+      "name": "back_graphic.png",
+      "extension": ".png",
+      "mimeType": "image/png",
+      "sizeBytes": 8289332,
+      "modifiedMs": 1754686912516.5383
+    },
+    {
+      "name": "back_walkingmodel.mp4",
+      "extension": ".mp4",
+      "mimeType": "video/mp4",
+      "sizeBytes": 984846,
+      "modifiedMs": 1754686377919.4495
+    },
+    {
+      "name": "back.png",
+      "extension": ".png",
+      "mimeType": "image/png",
+      "sizeBytes": 2750431,
+      "modifiedMs": 1754686833628.6013
+    },
+    {
+      "name": "brand_logo.mtl",
+      "extension": ".mtl",
+      "mimeType": "text/plain",
+      "sizeBytes": 1,
+      "modifiedMs": 1754701235222.9102
+    },
+    {
+      "name": "brand_logo.obj",
+      "extension": ".obj",
+      "mimeType": "model/obj",
+      "sizeBytes": 2180921,
+      "modifiedMs": 1754701235222.742
+    },
+    {
+      "name": "brand_logo.svg",
+      "extension": ".svg",
+      "mimeType": "image/svg+xml",
+      "sizeBytes": 511164,
+      "modifiedMs": 1754701234000
+    },
+    {
+      "name": "design_breakdown.md",
+      "extension": ".md",
+      "mimeType": "text/markdown",
+      "sizeBytes": 3356,
+      "modifiedMs": 1754701564086.1484
+    },
+    {
+      "name": "front_graphic.png",
+      "extension": ".png",
+      "mimeType": "image/png",
+      "sizeBytes": 17568562,
+      "modifiedMs": 1754686912534.225
+    },
+    {
+      "name": "front_walkingmodel.mp4",
+      "extension": ".mp4",
+      "mimeType": "video/mp4",
+      "sizeBytes": 988591,
+      "modifiedMs": 1754685593375.8003
+    },
+    {
+      "name": "front.png",
+      "extension": ".png",
+      "mimeType": "image/png",
+      "sizeBytes": 3897120,
+      "modifiedMs": 1754686833636.3276
+    },
+    {
+      "name": "index.html",
+      "extension": ".html",
+      "mimeType": "application/octet-stream",
+      "sizeBytes": 7531,
+      "modifiedMs": 1754703122148.1807
+    },
+    {
+      "name": "landing.html",
+      "extension": ".html",
+      "mimeType": "application/octet-stream",
+      "sizeBytes": 7897,
+      "modifiedMs": 1754703972752.2163
+    },
+    {
+      "name": "optimize-images.mjs",
+      "extension": ".mjs",
+      "mimeType": "application/octet-stream",
+      "sizeBytes": 2481,
+      "modifiedMs": 1754703972752.2341
+    },
+    {
+      "name": "package-lock.json",
+      "extension": ".json",
+      "mimeType": "application/octet-stream",
+      "sizeBytes": 18985,
+      "modifiedMs": 1754703650968.5254
+    },
+    {
+      "name": "package.json",
+      "extension": ".json",
+      "mimeType": "application/octet-stream",
+      "sizeBytes": 455,
+      "modifiedMs": 1754703972752.3242
+    },
+    {
+      "name": "serve.mjs",
+      "extension": ".mjs",
+      "mimeType": "application/octet-stream",
+      "sizeBytes": 3092,
+      "modifiedMs": 1754703972752.181
+    },
+    {
+      "name": "shirtmodel.glb",
+      "extension": ".glb",
+      "mimeType": "model/gltf-binary",
+      "sizeBytes": 33405296,
+      "modifiedMs": 1754684673375.4746
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Drop 01 — Limited Graphic Tee</title>
+    <meta name="description" content="Limited streetwear drop — 3D interactive tee, bold visuals, and fast checkout." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+      :root { color-scheme: dark; }
+      html, body { background: #0a0a0a; color: #f5f5f5; }
+      .grad { background: radial-gradient(1200px 600px at 50% -10%, rgba(255,255,255,0.08), rgba(0,0,0,0)); }
+      .glass { background: rgba(255,255,255,0.04); backdrop-filter: blur(8px); }
+    </style>
+  </head>
+  <body class="antialiased">
+    <header class="sticky top-0 z-40 glass border-b border-white/10">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <img src="brand_logo.svg" alt="Brand" class="h-7 w-auto" />
+          <span class="text-sm tracking-wide text-white/70">MikeWayne Productions x Drop 01</span>
+        </div>
+        <nav class="hidden md:flex items-center gap-6 text-sm text-white/80">
+          <a href="#story" class="hover:text-white">Story</a>
+          <a href="#gallery" class="hover:text-white">Gallery</a>
+          <a href="#community" class="hover:text-white">Community</a>
+        </nav>
+        <a
+          href="https://mike-wayne-productions.printify.me/product/20598787/houston-texans-swarm-tour-2025-schedule-t-shirt-limited-edition-fan-tee"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="px-4 py-2 rounded-md bg-white text-black font-medium hover:opacity-90"
+        >Order Now</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="grad">
+        <div class="max-w-7xl mx-auto px-4 py-10 md:py-16 grid md:grid-cols-2 gap-8 items-center">
+          <div class="order-2 md:order-1">
+            <h1 class="text-3xl md:text-5xl font-semibold tracking-tight">Limited Edition Graphic Tee</h1>
+            <p class="mt-3 text-white/70 md:text-lg">Premium fabric. Bold art direction. Built for movement. Rotate the tee, explore details, and lock your preorder.</p>
+            <div class="mt-6 flex gap-3">
+              <a
+                href="https://mike-wayne-productions.printify.me/product/20598787/houston-texans-swarm-tour-2025-schedule-t-shirt-limited-edition-fan-tee"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-5 py-3 rounded-md bg-white text-black font-medium hover:opacity-90"
+              >Add to Cart</a>
+              <a href="#gallery" class="px-5 py-3 rounded-md border border-white/20 hover:bg-white/5">See Gallery</a>
+            </div>
+            <div class="mt-4 text-xs text-white/60">No restocks. Ships in 1–2 weeks. Free returns.</div>
+          </div>
+          <div class="order-1 md:order-2 rounded-xl border border-white/10 overflow-hidden bg-black">
+            <model-viewer
+              src="shirtmodel.glb"
+              alt="3D Tee"
+              camera-controls
+              auto-rotate
+              shadow-intensity="1"
+              style="width:100%; height: 60vh; min-height:360px;">
+            </model-viewer>
+          </div>
+        </div>
+      </section>
+
+      <!-- Story -->
+      <section id="story" class="border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8">
+          <div class="md:col-span-1">
+            <h2 class="text-2xl font-semibold">The Drop Story</h2>
+          </div>
+          <div class="md:col-span-2 text-white/70 space-y-4">
+            <p>Inspired by late-night city runs and the pulse of underground sound systems, this tee balances minimal form with maximal attitude.</p>
+            <ul class="list-disc list-inside grid gap-1">
+              <li>Heavyweight 240gsm cotton</li>
+              <li>Water-based eco inks</li>
+              <li>Oversized cut with drop shoulders</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery" class="border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 py-12">
+          <h2 class="text-2xl font-semibold mb-6">Gallery</h2>
+          <div class="grid md:grid-cols-2 gap-6">
+            <figure class="rounded-xl overflow-hidden border border-white/10 bg-black">
+              <picture>
+                <source type="image/avif" srcset="optimized/front-w640.avif 640w, optimized/front-w1024.avif 1024w, optimized/front-w1280.avif 1280w, optimized/front-w1920.avif 1920w, optimized/front-w2560.avif 2560w" />
+                <source type="image/webp" srcset="optimized/front-w640.webp 640w, optimized/front-w1024.webp 1024w, optimized/front-w1280.webp 1280w, optimized/front-w1920.webp 1920w, optimized/front-w2560.webp 2560w" />
+                <img class="w-full h-auto" src="optimized/front-w1920.jpg" alt="Front tee" loading="lazy" />
+              </picture>
+            </figure>
+            <figure class="rounded-xl overflow-hidden border border-white/10 bg-black">
+              <picture>
+                <source type="image/avif" srcset="optimized/back-w640.avif 640w, optimized/back-w1024.avif 1024w, optimized/back-w1280.avif 1280w, optimized/back-w1920.avif 1920w, optimized/back-w2560.avif 2560w" />
+                <source type="image/webp" srcset="optimized/back-w640.webp 640w, optimized/back-w1024.webp 1024w, optimized/back-w1280.webp 1280w, optimized/back-w1920.webp 1920w, optimized/back-w2560.webp 2560w" />
+                <img class="w-full h-auto" src="optimized/back-w1920.jpg" alt="Back tee" loading="lazy" />
+              </picture>
+            </figure>
+          </div>
+
+          <div class="mt-6 grid md:grid-cols-2 gap-6">
+            <figure class="rounded-xl overflow-hidden border border-white/10 bg-black">
+              <video class="w-full h-auto" src="front_walkingmodel.mp4" muted playsinline controls preload="metadata"></video>
+            </figure>
+            <figure class="rounded-xl overflow-hidden border border-white/10 bg-black">
+              <video class="w-full h-auto" src="back_walkingmodel.mp4" muted playsinline controls preload="metadata"></video>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Community / CTA -->
+      <section id="community" class="border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-8 items-start">
+          <div class="md:col-span-2">
+            <h2 class="text-2xl font-semibold">Join the Drop</h2>
+            <p class="text-white/70 mt-2">Get early access, exclusive colorways, and invites to pop-ups.</p>
+            <form class="mt-5 flex flex-col sm:flex-row gap-3 max-w-xl">
+              <input type="email" required placeholder="you@example.com" class="flex-1 px-4 py-3 rounded-md bg-white/5 border border-white/10 focus:outline-none focus:ring-2 focus:ring-white/20" />
+              <button class="px-5 py-3 rounded-md bg-white text-black font-medium hover:opacity-90">Notify Me</button>
+            </form>
+          </div>
+          <div class="glass rounded-xl p-6 border border-white/10">
+            <div class="text-sm text-white/70">Scarcity</div>
+            <div class="text-3xl font-semibold mt-1">312 / 500 sold</div>
+            <div class="text-xs text-white/50 mt-2" id="countdown">Sale ends in —</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 py-8 text-white/50 text-sm">
+        © 2025 — All rights reserved.
+      </div>
+    </footer>
+
+    <script>
+      // Minimal countdown demo: 72 hours from now
+      const el = document.getElementById('countdown');
+      const end = Date.now() + 72 * 60 * 60 * 1000;
+      const iv = setInterval(() => {
+        const left = Math.max(0, end - Date.now());
+        const h = Math.floor(left / 36e5);
+        const m = Math.floor((left % 36e5) / 6e4);
+        const s = Math.floor((left % 6e4) / 1000);
+        el.textContent = `Sale ends in — ${h}h ${m}m ${s}s`;
+        if (left <= 0) clearInterval(iv);
+      }, 1000);
+    </script>
+  </body>
+  </html>
+
+
